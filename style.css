@@ -1,0 +1,146 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif, H
+    background-color: #f2f0ca;
+    color: #0b4020;
+    line-height: 1.6;
+}
+
+header { 
+    background-color: #0b4020;
+    color: #f2f0ca;
+    padding: 15px 20 px;
+}
+
+header h1 {
+    font-size: 1.8rem;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: #e5f3e8;
+    text-decoration: none;
+    margin-right: 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 15px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.07);
+}
+
+h2 {
+    margin-bottom: 10px;
+    color: #0b4020;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 0.85rem;
+    color: #0b4020;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th, td {
+    border: 1px solid #bcbcbc;
+    padding: 8px;
+}
+
+th {
+    background-color: #e5f3e8;
+    color: #0b4020;
+}
+
+label {
+    display: block;
+    margin-top:  4px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="time"],
+input[tpye="number"],
+textarea,
+select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border: 1px solid #94b59c;
+}
+
+button,
+input[type="submit"] {
+    background-color: #0b4020;
+    color: #fffdf5;
+    border:none;
+    padding: 8px 14px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover,
+input[type=="submit"]:hover {
+    background-color: #09351a;
+}
+
+.message {
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.message error {
+    background-color: #ffe5e5;
+    color: #8b0000;
+}
+
+.message.success {
+    background-color: #e5f3e8;
+    color: #0b4020;
+}
+
+img.hero {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-top: 10px;
+    border: 2px solid #0b4020;
+}
+
+.menu-img {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 6px;
+    margin-right: 10px;
+    vertical-align: middle;
+    border: 2px solid #0b4020;
+}
