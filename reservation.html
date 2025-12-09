@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Thien's Pop-Up -Reservation</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Thien's Pop-Up</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="menu.html">Menu</a>
+      <a href="reservation.html">Reservation</a>
+      <a href="review.html">Review</a>
+      <a href="recipes.html">Recipes</a>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Make a Reservation</h2>
+
+    <img src="reserve.webp" alt="Reservation" class="hero">
+    <p>Fill out the form below to reserve a table.</p>
+
+    <form id="reservation-form">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Your full name">
+
+        <label for="date">Date</label>
+        <input type="text" id="date" name="date">
+
+        <label for="size">Party Size</label>
+        <input type="text" id="size" name="size" min="1" max="12" placeholder="2">
+
+        <input type="submit" value="Reserve Now">
+
+    </form>
+  </main>
+
+  <footer>
+    &copy; 2025 Thien's Pop-Up.
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
